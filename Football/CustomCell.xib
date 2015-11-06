@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="football" rowHeight="86" id="gtB-jS-Ukp" customClass="CutomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gtB-jS-Ukp" id="xZc-Rf-lsp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpT-ZA-17u">
+                        <rect key="frame" x="4" y="0.0" width="312" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9k-A0-7Sx">
+                                <rect key="frame" x="0.0" y="8" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygl-dc-aQh">
+                                <rect key="frame" x="0.0" y="32" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsS-EN-crO">
+                                <rect key="frame" x="0.0" y="56" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLl-1v-g1l">
+                                <rect key="frame" x="176" y="8" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1af-DB-TlP">
+                                <rect key="frame" x="141" y="8" width="30" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JL-vt-4aX">
+                                <rect key="frame" x="176" y="32" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4p-Gk-bMv">
+                                <rect key="frame" x="176" y="56" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1af-DB-TlP" firstAttribute="baseline" secondItem="r9k-A0-7Sx" secondAttribute="baseline" id="1Mm-Nn-crC"/>
+                            <constraint firstItem="CsS-EN-crO" firstAttribute="top" secondItem="ygl-dc-aQh" secondAttribute="bottom" constant="3" id="3R8-uo-ro7"/>
+                            <constraint firstItem="CsS-EN-crO" firstAttribute="baseline" secondItem="a4p-Gk-bMv" secondAttribute="baseline" id="5Tw-M6-Bay"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="trailing" secondItem="r9k-A0-7Sx" secondAttribute="trailing" id="5ia-TN-C27"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="centerY" secondItem="vpT-ZA-17u" secondAttribute="centerY" id="9qs-JA-hQv"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="firstBaseline" secondItem="8JL-vt-4aX" secondAttribute="firstBaseline" id="AeC-EE-14Q"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="top" secondItem="r9k-A0-7Sx" secondAttribute="bottom" constant="3" id="BZO-0D-2Zj"/>
+                            <constraint firstItem="a4p-Gk-bMv" firstAttribute="bottom" secondItem="vpT-ZA-17u" secondAttribute="bottomMargin" id="EIU-Xe-2gZ"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="trailing" secondItem="CsS-EN-crO" secondAttribute="trailing" id="FC5-eA-MhI"/>
+                            <constraint firstItem="8JL-vt-4aX" firstAttribute="trailing" secondItem="a4p-Gk-bMv" secondAttribute="trailing" id="IFm-KI-lwu"/>
+                            <constraint firstItem="1af-DB-TlP" firstAttribute="top" secondItem="r9k-A0-7Sx" secondAttribute="top" id="N9C-IU-85K"/>
+                            <constraint firstAttribute="trailing" secondItem="hLl-1v-g1l" secondAttribute="trailing" id="Prd-gn-aIr"/>
+                            <constraint firstItem="CsS-EN-crO" firstAttribute="leading" secondItem="ygl-dc-aQh" secondAttribute="leading" id="QaT-UB-BRp"/>
+                            <constraint firstItem="1af-DB-TlP" firstAttribute="centerX" secondItem="vpT-ZA-17u" secondAttribute="centerX" id="QhY-v4-g40"/>
+                            <constraint firstItem="r9k-A0-7Sx" firstAttribute="firstBaseline" secondItem="hLl-1v-g1l" secondAttribute="firstBaseline" id="RVw-FF-KbO"/>
+                            <constraint firstItem="r9k-A0-7Sx" firstAttribute="leading" secondItem="vpT-ZA-17u" secondAttribute="leading" id="RaH-Qw-hLR"/>
+                            <constraint firstItem="8JL-vt-4aX" firstAttribute="leading" secondItem="ygl-dc-aQh" secondAttribute="trailing" constant="40" id="S8W-4f-WSk"/>
+                            <constraint firstItem="a4p-Gk-bMv" firstAttribute="leading" secondItem="8JL-vt-4aX" secondAttribute="leading" id="UJP-Mx-vNE"/>
+                            <constraint firstItem="hLl-1v-g1l" firstAttribute="trailing" secondItem="8JL-vt-4aX" secondAttribute="trailing" id="ZF5-HM-AcZ"/>
+                            <constraint firstItem="1af-DB-TlP" firstAttribute="top" secondItem="vpT-ZA-17u" secondAttribute="topMargin" id="aS2-nN-FLM"/>
+                            <constraint firstItem="8JL-vt-4aX" firstAttribute="leading" secondItem="hLl-1v-g1l" secondAttribute="leading" id="cdv-KF-dbc"/>
+                            <constraint firstItem="1af-DB-TlP" firstAttribute="leading" secondItem="r9k-A0-7Sx" secondAttribute="trailing" constant="5" id="dSR-2X-oHY"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="baseline" secondItem="8JL-vt-4aX" secondAttribute="baseline" id="k7S-EQ-9oe"/>
+                            <constraint firstAttribute="bottom" secondItem="1af-DB-TlP" secondAttribute="bottom" constant="56" id="kNB-im-xV6"/>
+                            <constraint firstItem="hLl-1v-g1l" firstAttribute="baseline" secondItem="1af-DB-TlP" secondAttribute="baseline" id="pao-yR-If9"/>
+                            <constraint firstItem="ygl-dc-aQh" firstAttribute="leading" secondItem="r9k-A0-7Sx" secondAttribute="leading" id="qF7-Xi-PUr"/>
+                            <constraint firstItem="hLl-1v-g1l" firstAttribute="leading" secondItem="1af-DB-TlP" secondAttribute="trailing" constant="5" id="yVc-PS-ImI"/>
+                            <constraint firstItem="CsS-EN-crO" firstAttribute="firstBaseline" secondItem="a4p-Gk-bMv" secondAttribute="firstBaseline" id="zb0-pi-W9W"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vpT-ZA-17u" firstAttribute="leading" secondItem="xZc-Rf-lsp" secondAttribute="leadingMargin" constant="-11" id="5Fs-XB-Wbm"/>
+                    <constraint firstItem="vpT-ZA-17u" firstAttribute="centerX" secondItem="xZc-Rf-lsp" secondAttribute="centerX" id="OKW-Da-X7j"/>
+                    <constraint firstItem="vpT-ZA-17u" firstAttribute="top" secondItem="xZc-Rf-lsp" secondAttribute="top" id="fJB-kN-LPt"/>
+                    <constraint firstAttribute="bottom" secondItem="vpT-ZA-17u" secondAttribute="bottom" id="rYh-vf-uG5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="awayGoalLbl" destination="8JL-vt-4aX" id="Zgj-cQ-yzv"/>
+                <outlet property="awayNameLbl" destination="hLl-1v-g1l" id="8B7-jh-PsI"/>
+                <outlet property="containerView" destination="vpT-ZA-17u" id="NqT-Ff-Kn3"/>
+                <outlet property="dateLbl" destination="a4p-Gk-bMv" id="6Vc-IB-YoU"/>
+                <outlet property="homeGoalLbl" destination="ygl-dc-aQh" id="iPA-3N-NyF"/>
+                <outlet property="homeNameLbl" destination="r9k-A0-7Sx" id="I81-pB-p0y"/>
+                <outlet property="statusLbl" destination="CsS-EN-crO" id="rWY-fq-e45"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="226"/>
+        </tableViewCell>
+    </objects>
+</document>
